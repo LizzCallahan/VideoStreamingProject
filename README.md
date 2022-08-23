@@ -1,21 +1,25 @@
 # VideoStreamingProject
 
 ### Setup:
+This project analyzes a total of 25,445 tv shows and movies (often referred to collectively as "titles") across 6 major streaming services.
 
-This project is my proposed final project for the LaunchCode data analysis bootcamp. I'd look at movie and tv data from streaming services to examine ratings data against a variety of factors and see what performs both across platforms and within them.
+### Potential questions:
+1. What titles were available to stream in May 2022?
+2. What were the top 10 titles by Imdb rating?
+3. What countries produce titles with the highest average Imdb rating and where are the majority of titles produced?
+4. How do ratings, votes, and popularity scores compare across streaming services?
+5. How do streaming services differ when it comes to release years and runtime distribution of their content?
+6. Which streaming services carry the most titles in each genre?
+7. What genres stood the test of time and how did their distribution change?
+8. What actors and directors have the most credits in the last 20 years?
+...and more!
 
-### Potential business questions:
-
-1. What genres perform well across different streaming platforms? Is there variability in which genres are popular by streaming service?
-2. What directors or cast members seem to draw high reviews across the different streaming services?
-3. How much does length of a tv show benefit or handicap it in ratings? Does this differ by genre?
 
 ### Proposed dataset:
+One Kaggle user, Victor Soeiro, has scraped data from https://www.justwatch.com/us for multiple video streaming services. Data is from May of 2022. Each dataset is a separate service and includes two files with the titles (titles.csv) and the cast (credits.csv) for the title. The title info includes ratings data from IMDB and TMDB as well as things like length, genres, number of seasons, etc. The credits connect actors and directors to the title data. I plan to use some or all of the following sets: Hulu, Amazon Prime, HBO Max, Paramount, Disney+, Netflix. If possible, I'd like to create one overarching titles dataset and credits dataset to look at trends across all the platforms to use for Tableau (collectively they come to 27 mb of data, well within the 50 mb limit). 
 
-One Kaggle user, Victor Soeiro, has scraped data from https://www.justwatch.com/us for multiple video streaming services. Data is from May of 2022. Each dataset is a separate service and includes two files with the titles (titles.csv) and the cast (credits.csv) for the title. The title info includes ratings data from IMDB and TMDB as well as things like length, genres, number of seasons, etc. The credits connect actors and directors to the title data. I plan to use some or all of the following sets: Hulu, Amazon Prime, HBO Max, Paramount, Disney+, Netflix. If possible, I'd like to create one overarching titles dataset and credits dataset to look at trends across all the platforms to use for Tableau (collectively they come to 27 mb of data, well within the 50 mb limit). I'd also probably run functions on each individually where that makes more sense.
 
 #### Dataset links:
-
 https://www.kaggle.com/datasets/victorsoeiro/hulu-tv-shows-and-movies; https://www.kaggle.com/datasets/victorsoeiro/amazon-prime-tv-shows-and-movies; https://www.kaggle.com/datasets/victorsoeiro/hbo-max-tv-shows-and-movies; https://www.kaggle.com/datasets/victorsoeiro/paramount-tv-shows-and-movies; https://www.kaggle.com/datasets/victorsoeiro/disney-tv-shows-and-movies; https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
 
 
