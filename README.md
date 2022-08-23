@@ -1,5 +1,8 @@
 # VideoStreamingProject
 
+### Link to Tableau analysis:
+https://public.tableau.com/app/profile/elizabeth.callahan/viz/StreamingVideoAnalysis-LaunchCodeFinalProject/Story1
+
 ### Setup:
 This project analyzes a total of 25,445 tv shows and movies (often referred to collectively as "titles") across 6 major streaming services.
 
